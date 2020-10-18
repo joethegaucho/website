@@ -1,0 +1,103 @@
+:root {
+  --header-height: 3.7rem;
+  --footer-height: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: var(--header-height);
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3e5265;
+}
+
+header li {
+  display: inline-block;
+}
+
+.nav-list div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.nav-bar-lin,
+.nav-bar-link:visited,
+.nav-bar-link:hover,
+.nav-bar-lin:active {
+
+  color: black
+
+}
+
+
+main {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.chart-container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 98%;
+  height: 537px;
+  background-color: #fff;
+}
+
+
+
+
+
+footer {
+  height: var(--footer-height);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3e5265;
+}
+
+footer li {
+  display: inline-block;
+}
+
+.profile-list div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.profile-list img {
+  height: 100%;
+  margin: auto;
+}
+
+
+
+
